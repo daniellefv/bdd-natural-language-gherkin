@@ -1,7 +1,7 @@
 Feature: online cart
     As a online client 
     I want to include items, verify shipping price and e delete items
-    To make my online purchase
+    So make my online purchase
 
 Context: 
     Given that the user is logged in the system
