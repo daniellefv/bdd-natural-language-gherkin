@@ -2,11 +2,11 @@
 
 ## BDD - Behaviour-Driven Development using natural language and Gherkin
 
-_“making it possible for collaboration between the technical and non-technical teams to run with improved efficiency.”_
+_“Making it possible for collaboration between the technical and non-technical teams to run with improved efficiency.”_
 
 This Project was created base on the [Rocketseat experts club learning path](https://www.rocketseat.com.br/) to test the approach of describing features using natural language and BDD.
 
-## BDD introduction
+## BDD introduction 🐒
 
 Behavior-Driven Development is a set of development practices to put in practice in order to reduce some waste of time and re-work during development.
 It describes how the software should work from the end user’s perspective.
@@ -15,7 +15,7 @@ The problem: When a team is presented to a new feature that needs development - 
 
 The main of its implementation is to improve collaboration and communication between stakeholders, such as developers, testers, POs, and BAs, using a natural, common and understandable language to everyone.
 
-## Benefits to using BDD
+## Benefits to using BDD 🚀
 
 1. You are no longer defining 'steps', ‘test’, but are defining the desired ‘behavior’.
 2. Better communication between developers, testers, product owners, stakeholders and business analysts.
@@ -23,13 +23,13 @@ The main of its implementation is to improve collaboration and communication bet
 4. Being non-technical can make it easier to reach a wider audience.
 5. The behavioral approach defines acceptance criteria prior to development.
 
-## Disadvantages / pitfalls of BDD
+## Disadvantages / pitfalls of BDD 🤷‍♀️
 
 1. BDD doesn't work in a waterfall approach.
 2. If the requirements are not properly specified, BDD may not be effective.
 3. Testers using BDD need to have sufficient technical skills.
 
-## Sample
+## Sample 🧐
 
 BDD uses natural readable language (Gherkins) to describe tests which can be understood. see the example feature definition below.
 
