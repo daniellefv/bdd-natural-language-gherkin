@@ -29,29 +29,21 @@ The main of its implementation is to improve collaboration and communication bet
 2. If the requirements are not properly specified, BDD may not be effective.
 3. Testers using BDD need to have sufficient technical skills.
 
-## Example Code
+## Sample
 
-BDD
-uses natural readable language (Gherkins) to describe tests which can
-be understood. see the example feature definition below.
+BDD uses natural readable language (Gherkins) to describe tests which can be understood. see the example feature definition below.
 
-```
-Given I am on the home page
-When I enter my username "myemail@gmail.com"
-And I enter my password "mypassword"
-Then I should see my email "myemail@gmail.com" on the dashboard
-```
-
-### Other approach - the role-Feature-Reason matrix
-
-This template is also used in BDD, in order to aid user story creation. This template is defined as:
+The role-Feature-Reason matrix
 
 ```
-As a ...
-I want ...
-So that ...
-
 **As a** retail customer,
 **I want** to return an electronically purchase merchandise within 10 days,
 **so that** the refund will be processed
+```
+
+```
+**Given** I am on the home page
+**When** I enter my username "myemail@gmail.com"
+**And** I enter my password "mypassword"
+**Then** I should see my email "myemail@gmail.com" on the dashboard
 ```
