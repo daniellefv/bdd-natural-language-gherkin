@@ -4,7 +4,6 @@ Feature: Login in system
   So that I can access the system
 
 Scenario: Successfully logging in
-
   Given that I'm on the login page
   When I add a valid user
   And I add a valid password
@@ -12,7 +11,6 @@ Scenario: Successfully logging in
   Then I'll be redirected to the system's home page
 
 Scenario: Login with invalid password
-
   Given that I'm on the login page
   When I add a valid user
   And I add an invalid password
@@ -20,7 +18,6 @@ Scenario: Login with invalid password
   Then I'll be presented a "Incorrect password, please try again!" message
 
 # sample using but
-
   Given that I'm on the login page
   When I add a valid user
   And I add an invalid password
