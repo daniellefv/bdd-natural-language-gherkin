@@ -1,6 +1,6 @@
 # bdd-natural-language-gherkin
 
-## BDD - Behaviour-Driven Development using natural language and Gherkin
+## BDD - Behaviour-Driven Development using natural language (Gherkin)
 
 _“Making it possible for collaboration between the technical and non-technical teams to run with improved efficiency.”_
 
