@@ -36,12 +36,18 @@ BDD uses natural readable language (Gherkins) to describe tests which can be und
 The role-Feature-Reason matrix
 
 Feature: Login
-**As a** retail customer,
-**I want** to return an electronically purchase merchandise within 10 days,
-**so that** the refund will be processed
+
+```
+As - a retail customer,
+I want - to return an electronically purchase merchandise within 10 days,
+So that - the refund will be processed
+```
 
 Scenario: Successfully logging in
-**Given** I am on the home page
-**When** I enter my username "myemail@gmail.com"
-**And** I enter my password "mypassword"
-**Then** I should see my email "myemail@gmail.com" on the dashboard
+
+```
+Given - I am on the home page
+When - I enter my username "myemail@gmail.com"
+And - I enter my password "mypassword"
+Then - I should see my email "myemail@gmail.com" on the dashboard
+```
